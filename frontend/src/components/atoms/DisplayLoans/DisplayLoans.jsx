@@ -7,7 +7,7 @@ const DisplayLoans = () => {
     bank: store.bank
   }));
   return (
-    <p>4543464</p>
+    <p>43464</p>
   );
 };
 

@@ -7,7 +7,7 @@ const DisplayRequests = () => {
     bank: store.bank
   }));
   return (
-    <p>7567645</p>
+    <p>75675</p>
   );
 };
 
