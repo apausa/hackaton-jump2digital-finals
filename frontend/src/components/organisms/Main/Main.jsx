@@ -4,7 +4,8 @@ import bankCreator from '../../../redux/actions/bankCreator';
 import Buttons from '../../molecules/Buttons/Butttons';
 import Display from '../../molecules/Display/Display';
 import Graphs from '../../molecules/Graphs/Graphs';
-import styles from './main.scss';
+
+import './main.scss';
 
 const Main = () => {
   const dispatch = useDispatch();
@@ -17,20 +18,23 @@ const Main = () => {
   return (
     <main>
 
-      <p>Main component works</p>
-      <section className={styles.displayContainer}>
+      <section className="upContainer">
 
-        <Display />
+        <div className="displayContainer">
+          <Display />
+        </div>
 
-        <div className={styles.buttonsContainer}>
+        <div className="buttonsContainer">
           <Buttons />
         </div>
 
       </section>
 
-      <section className={styles.bottomContainer}>
+      <section className="bottomContainer">
 
-        <Graphs />
+        <div className="graphsContainer">
+          <Graphs />
+        </div>
 
       </section>
     </main>
