@@ -1,11 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import bankCreator from '../../../redux/actions/bankCreator';
-import Buttons from '../../molecules/Buttons/Buttons';
-import Display from '../../molecules/Display/Display';
-import Graphs from '../../molecules/Graphs/Graphs';
-
-import './main.scss';
+import ButtonUpdate from '../../atoms/ButtonUpdate/ButtonUpdate';
 
 const Main = () => {
   const dispatch = useDispatch();
@@ -16,29 +12,7 @@ const Main = () => {
     if (!bank.length) dispatch(bankCreator());
   }, []);
   return (
-    <main>
-
-      <section className="upContainer">
-
-        <div className="displayContainer">
-          <Display />
-        </div>
-
-        <div className="buttonsContainer">
-          <Buttons />
-        </div>
-
-      </section>
-
-      <section className="bottomContainer">
-
-        <div className="graphsContainer">
-          <Graphs />
-        </div>
-
-      </section>
-    </main>
-
+    <ButtonUpdate />
   );
 };
 

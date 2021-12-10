@@ -1,14 +1,14 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 
-const DisplayLoans = () => {
+const DisplayRequests = () => {
   // eslint-disable-next-line no-unused-vars
   const { bank } = useSelector((store) => ({
     bank: store.bank
   }));
   return (
-    <p>43464</p>
+    <p>75675</p>
   );
 };
 
-export default DisplayLoans;
+export default DisplayRequests;
