@@ -12,9 +12,10 @@ main {
     .upContainer {
         display: flex;
         border-radius: 8px;
-        background-color: lavender;
+        background-color: lightcyan;
         flex-direction: row;
         justify-content: space-between;
+        border: 1px solid black;
     }
     .bottomContainer {
         margin-top: 100px;

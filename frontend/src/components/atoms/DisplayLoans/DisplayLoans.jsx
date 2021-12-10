@@ -10,7 +10,7 @@ const DisplayLoans = () => {
   return (
     <div className="container">
       <p className="text">Loan return time</p>
-      <p className="number">One day</p>
+      <p className="number">1 day</p>
     </div>
   );
 };

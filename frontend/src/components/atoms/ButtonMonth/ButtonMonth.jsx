@@ -4,17 +4,15 @@ import React from 'react';
 import './ButtonMonth.scss';
 
 const ButtonMonth = () => {
-  const monthList = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augist', 'September', 'November', 'Dicember'];
+  const MONTH_LIST = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augist', 'September', 'November', 'Dicember'];
   return (
     <div>
-      <input>
-        <select>
+        <select className="buttonMonth">
           <option>
-            choose the month
+            Month
           </option>
-            {monthList.map((month) => (<option>{month}</option>))}
+            {MONTH_LIST.map((month) => (<option>{month}</option>))}
         </select>
-      </input>
     </div>
   );
 };

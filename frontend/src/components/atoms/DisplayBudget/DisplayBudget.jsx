@@ -10,7 +10,7 @@ const DisplayBudget = () => {
   return (
     <div className="container">
       <p className="text">Budget</p>
-      <p className="number">1000</p>
+      <p className="number">1000€</p>
     </div>
   );
 };

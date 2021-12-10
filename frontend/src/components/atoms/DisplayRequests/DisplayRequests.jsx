@@ -10,7 +10,7 @@ const DisplayRequests = () => {
   return (
     <div className="container">
       <p className="text">Accepted requests</p>
-      <p className="number">7</p>
+      <p className="number">7 requests</p>
     </div>
   );
 };
