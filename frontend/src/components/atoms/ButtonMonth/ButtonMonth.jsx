@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ButtonMonth = () => (
+const ButtonMotnh = () => (
   <p>ButtonMonth component works</p>
 );
 
-export default ButtonMonth;
+export default ButtonMotnh;

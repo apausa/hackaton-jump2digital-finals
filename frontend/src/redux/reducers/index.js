@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import checkoutReducer from './checkoutReducer';
+import bankReducer from './bankReducer';
 
 // For scalability purposes.
 export default combineReducers({
-  checkoutReducer
+  bank: bankReducer
 });
