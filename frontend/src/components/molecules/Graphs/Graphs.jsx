@@ -3,7 +3,7 @@
 import React from 'react';
 import faker from 'faker';
 import GraphRequests from '../../atoms/GraphRequests/GraphRequests';
-import './Graphs.scss';
+import './graphs.scss';
 
 const Graphs = () => {
   const optionsReqMoney = {
