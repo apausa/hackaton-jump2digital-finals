@@ -8,6 +8,9 @@
 #
 # https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
 # Sonar Scanner working directories
+
+.DS_Store
+
 .sonar/
 .scannerwork/
 
