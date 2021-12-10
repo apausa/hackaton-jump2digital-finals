@@ -23,16 +23,12 @@ ChartJS.register(
   Legend
 );
 
-const GraphRequests = (props) => {
-  console.log(props.data);
+const GraphRequests = (props) => (
+  <div>
+    <Line options={props.options} data={props.data} />
+  </div>
 
-  return (
-    <div>
-      <Line options={props.options} data={props.data} />
-    </div>
-
-  );
-};
+);
 
 export default
 GraphRequests;
