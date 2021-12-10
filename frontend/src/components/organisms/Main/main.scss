@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Variables
+$principal-color: #eeeeee;
+$secondary-color: #af7d77;
+$white: #FFF;
+$black: #020202;
+
+main {
+    margin: 0 25vw;
+    margin-top: 100px;
+    .upContainer {
+        display: flex;
+        border-radius: 8px;
+        background-color: lightcyan;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid black;
+    }
+    .bottomContainer {
+        margin-top: 100px;
+    }
+}
