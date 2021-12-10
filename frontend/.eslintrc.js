@@ -28,6 +28,7 @@ module.exports = {
     'react/no-invalid-html-attribute': 'off',
     'react/no-unused-class-component-methods': 'off',
     'react/function-component-definition': 'off',
+    'default-param-last': 'off',
     'comma-dangle': [2, 'never'],
     'linebreak-style': 0,
     'global-require': 0,

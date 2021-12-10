@@ -1,7 +1,9 @@
-import actions from '../actions/checkoutTypes';
+import actions from '../actions/actionTypes';
 
-export default function Reducer(initial, action) {
-  let checkout = initial;
-  if (action.type === actions.DEFAULT) checkout = action.data;
-  return checkout;
+export default function Reducer(initial = [], action) {
+  const render = initial;
+  if (action.type === actions.RENDER) {
+    checkout = action.data;
+  }
+  return render;
 }
