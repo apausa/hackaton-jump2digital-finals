@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 // Variables
-$principal-color: #e7e6e6;
-$secondary-color: blue;
-$white: #e7e6e6;
+$principal-color: #eeeeee;
+$secondary-color: #af7d77;
+$white: #eeeeee;
 $black: #020202;
 
 main {
@@ -11,7 +11,7 @@ main {
     background-color: $white;
     border-radius: 20px;
 
-    margin: 2rem;
+    margin: 1rem;
     padding: 2rem;
 
     display: flex;

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import bankCreator from '../../../redux/actions/bankCreator';
-import Buttons from '../../molecules/Buttons/Butttons';
+import Buttons from '../../molecules/Buttons/Buttons';
 import Display from '../../molecules/Display/Display';
 import Graphs from '../../molecules/Graphs/Graphs';
 
