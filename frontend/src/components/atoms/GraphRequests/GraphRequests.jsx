@@ -1,7 +1,8 @@
 import React from 'react';
+import './GraphRequests.scss';
 
 const GraphRequests = () => (
-  <p>GraphRequests component works</p>
+  <p className="graphRequest">GraphRequests component works</p>
 );
 
 export default GraphRequests;

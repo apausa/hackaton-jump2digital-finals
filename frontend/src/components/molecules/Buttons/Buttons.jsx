@@ -1,7 +1,14 @@
 import React from 'react';
+import ButtonMonth from '../../atoms/ButtonMonth/ButtonMonth';
+import ButtonUpdate from '../../atoms/ButtonUpdate/ButtonUpdate';
+
+import './buttons.scss';
 
 const Buttons = () => (
-  <p>Buttons component works</p>
+  <div className="buttonsContainer">
+    <ButtonMonth />
+    <ButtonUpdate />
+  </div>
 );
 
 export default Buttons;

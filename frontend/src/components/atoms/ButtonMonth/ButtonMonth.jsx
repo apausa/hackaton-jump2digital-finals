@@ -1,7 +1,8 @@
 import React from 'react';
+import './ButtonMonth.scss';
 
 const ButtonMonth = () => (
-  <p>Select by month</p>
+  <p className="buttonMonth">Select by month</p>
 );
 
 export default ButtonMonth;

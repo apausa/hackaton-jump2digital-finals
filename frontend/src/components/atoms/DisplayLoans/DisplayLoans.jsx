@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import './DisplayLoans.scss';
 
 const DisplayLoans = () => {
   // eslint-disable-next-line no-unused-vars
@@ -7,7 +8,7 @@ const DisplayLoans = () => {
     bank: store.bank
   }));
   return (
-    <p>43464</p>
+    <p className="displayLoans">43464</p>
   );
 };
 
