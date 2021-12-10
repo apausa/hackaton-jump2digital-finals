@@ -8,7 +8,10 @@ const DisplayRequests = () => {
     bank: store.bank
   }));
   return (
-    <p className="displayRequest">75675</p>
+    <div className="container">
+      <p className="text">Accepted requests</p>
+      <p className="number">7</p>
+    </div>
   );
 };
 

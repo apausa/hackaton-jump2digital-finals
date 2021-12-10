@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './DisplayLoans.scss';
+import '../DisplayRequests/DisplayRequests.scss';
 
 const DisplayLoans = () => {
   // eslint-disable-next-line no-unused-vars
@@ -8,7 +8,10 @@ const DisplayLoans = () => {
     bank: store.bank
   }));
   return (
-    <p className="displayLoans">43464</p>
+    <div className="container">
+      <p className="text">Loan return time</p>
+      <p className="number">One day</p>
+    </div>
   );
 };
 

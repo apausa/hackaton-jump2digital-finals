@@ -7,12 +7,16 @@ $white: #FFF;
 $black: #020202;
 
 main {
-    margin: 25vw;
+    margin: 0 25vw;
+    margin-top: 100px;
     .upContainer {
         display: flex;
+        border-radius: 8px;
+        background-color: lavender;
         flex-direction: row;
         justify-content: space-between;
-        width: 100%;
-        border: 1px solid black;
+    }
+    .bottomContainer {
+        margin-top: 100px;
     }
 }

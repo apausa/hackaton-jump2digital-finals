@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './DisplayBudget.scss';
+import '../DisplayRequests/DisplayRequests.scss';
 
 const DisplayBudget = () => {
   // eslint-disable-next-line no-unused-vars
@@ -8,7 +8,10 @@ const DisplayBudget = () => {
     bank: store.bank
   }));
   return (
-    <p className="displayBudget">34453</p>
+    <div className="container">
+      <p className="text">Budget</p>
+      <p className="number">1000</p>
+    </div>
   );
 };
 
