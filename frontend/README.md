@@ -10,6 +10,7 @@ Bank visualizer application for the JUMP2DIGITAL Hackaton.
 
 ## You can find in the app
 
-- React
-- Redux
-- SCSS
+- React application.
+- Redux to manage the state.
+- Api calls with axios. 
+- SCSS for styling.
