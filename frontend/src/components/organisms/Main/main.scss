@@ -5,6 +5,9 @@ main {
     .upContainer {
         display: flex;
 
+        height: 300px;
+        background-color: red;
+
         .buttonsContainer {
             display: flex;
             flex-direction: column;
